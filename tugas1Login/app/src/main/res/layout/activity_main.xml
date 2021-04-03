@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/upn"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <EditText
+        android:backgroundTint="#FF03DAC5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        android:hint="username "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:backgroundTint="#FF03DAC5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_satu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"/>
+        <Button
+            android:id="@+id/btn_dua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAFTAR"/>
+    </LinearLayout>
+</LinearLayout>
